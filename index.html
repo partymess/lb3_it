@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <ul>
+            <li>
+                  <div onclick="handleOpenBlock('div0')"  style="color: blue; text-decoration: underline;">First image</div>
+                  <div id="div0" style="display: block;">
+                        <img src="./images/0.jpg" style="height: 70px; width: 150px; border: 0px solid black" id="0" alt="img0">
+                        <div style="display: flex;">
+                              <input  placeholder="Enter height" class="inputHeight" type="number" />
+                              <input placeholder="Enter width" class="inputWidth" type="number"/>
+                              <input placeholder="Enter border width" class="inputBorderWidth" type="number"/>
+                              <input placeholder="Enter alt text" class="inputAltText"/>
+                        </div>
+                  </div>
+            </li>
+            <li>
+                  <div onclick="handleOpenBlock('div1')"  style="color: blue; text-decoration: underline;">Second image </div>
+                  <div id="div1" style="display: none;">
+                        <img src="./images/1.jpg" style="height: 70px; width: 150px; border: 0px solid aquamarine" id="1" alt="img1">
+                        <div style="display: flex;">
+                              <input placeholder="Enter height"  class="inputHeight" type="number"/>
+                              <input placeholder="Enter width" class="inputWidth" type="number"/>
+                              <input placeholder="Enter border width" class="inputBorderWidth" type="number"/>
+                              <input placeholder="Enter alt text" class="inputAltText"/>
+                        </div>
+                  </div>
+            </li>
+            <li>
+                  <div onclick="handleOpenBlock('div2')"  style="color: blue; text-decoration: underline;">Third image</div>
+
+                  <div id="div2" style="display: none;">
+                        <img src="./images/2.jpg" style="height: 70px; width: 150px; border: 0px solid aquamarine" id="2" alt="img2">
+                        <div style="display: flex;">
+                              <input placeholder="Enter height"  class="inputHeight" type="number"/>
+                              <input placeholder="Enter width" class="inputWidth" type="number"/>
+                              <input placeholder="Enter border width" class="inputBorderWidth" type="number"/>
+                              <input placeholder="Enter alt text" class="inputAltText"/>
+                        </div>
+                  </div>
+            </li>
+            <li>
+                  <div onclick="handleOpenBlock('div3')"  style="color: blue; text-decoration: underline;">Fourth image</div>
+                  <div id="div3" style="display: none;">
+                        <img src="./images/3.jpg" style="height: 70px; width: 150px; border: 0px solid aquamarine" id="3" alt="img3">
+                        <div style="display: flex;">
+                              <input placeholder="Enter height"  class="inputHeight" type="number"/>
+                              <input placeholder="Enter width" class="inputWidth" type="number"/>
+                              <input placeholder="Enter border width" class="inputBorderWidth" type="number"/>
+                              <input placeholder="Enter alt text" class="inputAltText"/>
+                        </div>
+                  </div>
+            </li>
+      </ul>
+      <script src="./index.js"></script>
+</body>
+</html>
